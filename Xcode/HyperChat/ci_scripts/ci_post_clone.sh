@@ -6,8 +6,7 @@
 #  Created by Andrew Glaze on 6/23/22.
 #  
 
-brew install node
+brew install node@16
+brew link node@16
 brew install yarn
-cd ../../
-yarn
-VERSION=$(git describe --abbrev=0 --tags) yarn build
+
