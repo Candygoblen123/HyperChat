@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		367CE46B286516CF004636D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE46A286516CF004636D7 /* AppDelegate.swift */; };
+		367CE46D286516CF004636D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE46C286516CF004636D7 /* SceneDelegate.swift */; };
+		367CE470286516CF004636D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367CE46E286516CF004636D7 /* LaunchScreen.storyboard */; };
+		367CE473286516CF004636D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367CE471286516CF004636D7 /* Main.storyboard */; };
+		367CE47C286516CF004636D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE47B286516CF004636D7 /* AppDelegate.swift */; };
+		367CE47F286516CF004636D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367CE47D286516CF004636D7 /* Main.storyboard */; };
+		367CE487286516D0004636D7 /* HyperChat Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 367CE486286516D0004636D7 /* HyperChat Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		367CE491286516D0004636D7 /* HyperChat Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 367CE490286516D0004636D7 /* HyperChat Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		367CE497286516D0004636D7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45A286516CF004636D7 /* Main.html */; };
+		367CE498286516D0004636D7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45A286516CF004636D7 /* Main.html */; };
+		367CE499286516D0004636D7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45C286516CF004636D7 /* Icon.png */; };
+		367CE49A286516D0004636D7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45C286516CF004636D7 /* Icon.png */; };
+		367CE49B286516D0004636D7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45D286516CF004636D7 /* Style.css */; };
+		367CE49C286516D0004636D7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45D286516CF004636D7 /* Style.css */; };
+		367CE49D286516D0004636D7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45E286516CF004636D7 /* Script.js */; };
+		367CE49E286516D0004636D7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE45E286516CF004636D7 /* Script.js */; };
+		367CE49F286516D0004636D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE45F286516CF004636D7 /* ViewController.swift */; };
+		367CE4A0286516D0004636D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE45F286516CF004636D7 /* ViewController.swift */; };
+		367CE4A1286516D0004636D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE460286516CF004636D7 /* Assets.xcassets */; };
+		367CE4A2286516D0004636D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE460286516CF004636D7 /* Assets.xcassets */; };
+		367CE4A3286516D0004636D7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE462286516CF004636D7 /* SafariWebExtensionHandler.swift */; };
+		367CE4A4286516D0004636D7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367CE462286516CF004636D7 /* SafariWebExtensionHandler.swift */; };
+		367CE4C2286516D0004636D7 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B6286516D0004636D7 /* options.js */; };
+		367CE4C3286516D0004636D7 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B7286516D0004636D7 /* manifest.chrome.json */; };
+		367CE4C4286516D0004636D7 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B8286516D0004636D7 /* tailwind.css */; };
+		367CE4C5286516D0004636D7 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B9286516D0004636D7 /* vendor.js */; };
+		367CE4C6286516D0004636D7 /* hyperchat.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BA286516D0004636D7 /* hyperchat.js */; };
+		367CE4C7286516D0004636D7 /* hyperchat.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BB286516D0004636D7 /* hyperchat.html */; };
+		367CE4C8286516D0004636D7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BC286516D0004636D7 /* scripts */; };
+		367CE4C9286516D0004636D7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BD286516D0004636D7 /* manifest.json */; };
+		367CE4CA286516D0004636D7 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BE286516D0004636D7 /* options.html */; };
+		367CE4CB286516D0004636D7 /* tailwind.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BF286516D0004636D7 /* tailwind.js */; };
+		367CE4CC286516D0004636D7 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4C0286516D0004636D7 /* assets */; };
+		367CE4CD286516D0004636D7 /* stylesheets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4C1286516D0004636D7 /* stylesheets */; };
+		367CE4CE286516D0004636D7 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B6286516D0004636D7 /* options.js */; };
+		367CE4CF286516D0004636D7 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B7286516D0004636D7 /* manifest.chrome.json */; };
+		367CE4D0286516D0004636D7 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B8286516D0004636D7 /* tailwind.css */; };
+		367CE4D1286516D0004636D7 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B9286516D0004636D7 /* vendor.js */; };
+		367CE4D2286516D0004636D7 /* hyperchat.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BA286516D0004636D7 /* hyperchat.js */; };
+		367CE4D3286516D0004636D7 /* hyperchat.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BB286516D0004636D7 /* hyperchat.html */; };
+		367CE4D4286516D0004636D7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BC286516D0004636D7 /* scripts */; };
+		367CE4D5286516D0004636D7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BD286516D0004636D7 /* manifest.json */; };
+		367CE4D6286516D0004636D7 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BE286516D0004636D7 /* options.html */; };
+		367CE4D7286516D0004636D7 /* tailwind.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BF286516D0004636D7 /* tailwind.js */; };
+		367CE4D8286516D0004636D7 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4C0286516D0004636D7 /* assets */; };
+		367CE4D9286516D0004636D7 /* stylesheets in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4C1286516D0004636D7 /* stylesheets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		367CE488286516D0004636D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367CE454286516CF004636D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367CE485286516CF004636D7;
+			remoteInfo = "HyperChat Extension (iOS)";
+		};
+		367CE492286516D0004636D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367CE454286516CF004636D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367CE48F286516D0004636D7;
+			remoteInfo = "HyperChat Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		367CE4AA286516D0004636D7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				367CE487286516D0004636D7 /* HyperChat Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE4B1286516D0004636D7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				367CE491286516D0004636D7 /* HyperChat Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		367CE45B286516CF004636D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		367CE45C286516CF004636D7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		367CE45D286516CF004636D7 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		367CE45E286516CF004636D7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		367CE45F286516CF004636D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		367CE460286516CF004636D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		367CE462286516CF004636D7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		367CE467286516CF004636D7 /* HyperChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367CE46A286516CF004636D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		367CE46C286516CF004636D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		367CE46F286516CF004636D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		367CE472286516CF004636D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367CE474286516CF004636D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367CE479286516CF004636D7 /* HyperChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367CE47B286516CF004636D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		367CE47E286516CF004636D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367CE480286516CF004636D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367CE481286516CF004636D7 /* HyperChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperChat.entitlements; sourceTree = "<group>"; };
+		367CE486286516D0004636D7 /* HyperChat Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HyperChat Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		367CE48B286516D0004636D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367CE490286516D0004636D7 /* HyperChat Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HyperChat Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		367CE495286516D0004636D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367CE496286516D0004636D7 /* HyperChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HyperChat.entitlements; sourceTree = "<group>"; };
+		367CE4B6286516D0004636D7 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../../build/options.js; sourceTree = "<group>"; };
+		367CE4B7286516D0004636D7 /* manifest.chrome.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.chrome.json; path = ../../../build/manifest.chrome.json; sourceTree = "<group>"; };
+		367CE4B8286516D0004636D7 /* tailwind.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = tailwind.css; path = ../../../build/tailwind.css; sourceTree = "<group>"; };
+		367CE4B9286516D0004636D7 /* vendor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = vendor.js; path = ../../../build/vendor.js; sourceTree = "<group>"; };
+		367CE4BA286516D0004636D7 /* hyperchat.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = hyperchat.js; path = ../../../build/hyperchat.js; sourceTree = "<group>"; };
+		367CE4BB286516D0004636D7 /* hyperchat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = hyperchat.html; path = ../../../build/hyperchat.html; sourceTree = "<group>"; };
+		367CE4BC286516D0004636D7 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../../../build/scripts; sourceTree = "<group>"; };
+		367CE4BD286516D0004636D7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../build/manifest.json; sourceTree = "<group>"; };
+		367CE4BE286516D0004636D7 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../../build/options.html; sourceTree = "<group>"; };
+		367CE4BF286516D0004636D7 /* tailwind.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = tailwind.js; path = ../../../build/tailwind.js; sourceTree = "<group>"; };
+		367CE4C0286516D0004636D7 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../build/assets; sourceTree = "<group>"; };
+		367CE4C1286516D0004636D7 /* stylesheets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = stylesheets; path = ../../../build/stylesheets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367CE464286516CF004636D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE476286516CF004636D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE483286516CF004636D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE48D286516D0004636D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367CE453286516CF004636D7 = {
+			isa = PBXGroup;
+			children = (
+				367CE458286516CF004636D7 /* Shared (App) */,
+				367CE461286516CF004636D7 /* Shared (Extension) */,
+				367CE469286516CF004636D7 /* iOS (App) */,
+				367CE47A286516CF004636D7 /* macOS (App) */,
+				367CE48A286516D0004636D7 /* iOS (Extension) */,
+				367CE494286516D0004636D7 /* macOS (Extension) */,
+				367CE468286516CF004636D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367CE458286516CF004636D7 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE45F286516CF004636D7 /* ViewController.swift */,
+				367CE460286516CF004636D7 /* Assets.xcassets */,
+				367CE459286516CF004636D7 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		367CE459286516CF004636D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				367CE45A286516CF004636D7 /* Main.html */,
+				367CE45C286516CF004636D7 /* Icon.png */,
+				367CE45D286516CF004636D7 /* Style.css */,
+				367CE45E286516CF004636D7 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		367CE461286516CF004636D7 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE4B5286516D0004636D7 /* Resources */,
+				367CE462286516CF004636D7 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		367CE468286516CF004636D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367CE467286516CF004636D7 /* HyperChat.app */,
+				367CE479286516CF004636D7 /* HyperChat.app */,
+				367CE486286516D0004636D7 /* HyperChat Extension.appex */,
+				367CE490286516D0004636D7 /* HyperChat Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367CE469286516CF004636D7 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE46A286516CF004636D7 /* AppDelegate.swift */,
+				367CE46C286516CF004636D7 /* SceneDelegate.swift */,
+				367CE46E286516CF004636D7 /* LaunchScreen.storyboard */,
+				367CE471286516CF004636D7 /* Main.storyboard */,
+				367CE474286516CF004636D7 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		367CE47A286516CF004636D7 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE47B286516CF004636D7 /* AppDelegate.swift */,
+				367CE47D286516CF004636D7 /* Main.storyboard */,
+				367CE480286516CF004636D7 /* Info.plist */,
+				367CE481286516CF004636D7 /* HyperChat.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		367CE48A286516D0004636D7 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE48B286516D0004636D7 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		367CE494286516D0004636D7 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				367CE495286516D0004636D7 /* Info.plist */,
+				367CE496286516D0004636D7 /* HyperChat.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		367CE4B5286516D0004636D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				367CE4B6286516D0004636D7 /* options.js */,
+				367CE4B7286516D0004636D7 /* manifest.chrome.json */,
+				367CE4B8286516D0004636D7 /* tailwind.css */,
+				367CE4B9286516D0004636D7 /* vendor.js */,
+				367CE4BA286516D0004636D7 /* hyperchat.js */,
+				367CE4BB286516D0004636D7 /* hyperchat.html */,
+				367CE4BC286516D0004636D7 /* scripts */,
+				367CE4BD286516D0004636D7 /* manifest.json */,
+				367CE4BE286516D0004636D7 /* options.html */,
+				367CE4BF286516D0004636D7 /* tailwind.js */,
+				367CE4C0286516D0004636D7 /* assets */,
+				367CE4C1286516D0004636D7 /* stylesheets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367CE466286516CF004636D7 /* HyperChat (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367CE4AB286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat (iOS)" */;
+			buildPhases = (
+				367CE463286516CF004636D7 /* Sources */,
+				367CE464286516CF004636D7 /* Frameworks */,
+				367CE465286516CF004636D7 /* Resources */,
+				367CE4AA286516D0004636D7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367CE489286516D0004636D7 /* PBXTargetDependency */,
+			);
+			name = "HyperChat (iOS)";
+			productName = "HyperChat (iOS)";
+			productReference = 367CE467286516CF004636D7 /* HyperChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		367CE478286516CF004636D7 /* HyperChat (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367CE4B2286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat (macOS)" */;
+			buildPhases = (
+				367CE475286516CF004636D7 /* Sources */,
+				367CE476286516CF004636D7 /* Frameworks */,
+				367CE477286516CF004636D7 /* Resources */,
+				367CE4B1286516D0004636D7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367CE493286516D0004636D7 /* PBXTargetDependency */,
+			);
+			name = "HyperChat (macOS)";
+			productName = "HyperChat (macOS)";
+			productReference = 367CE479286516CF004636D7 /* HyperChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		367CE485286516CF004636D7 /* HyperChat Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367CE4A7286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat Extension (iOS)" */;
+			buildPhases = (
+				367CE482286516CF004636D7 /* Sources */,
+				367CE483286516CF004636D7 /* Frameworks */,
+				367CE484286516CF004636D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HyperChat Extension (iOS)";
+			productName = "HyperChat Extension (iOS)";
+			productReference = 367CE486286516D0004636D7 /* HyperChat Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		367CE48F286516D0004636D7 /* HyperChat Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367CE4AE286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat Extension (macOS)" */;
+			buildPhases = (
+				367CE48C286516D0004636D7 /* Sources */,
+				367CE48D286516D0004636D7 /* Frameworks */,
+				367CE48E286516D0004636D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HyperChat Extension (macOS)";
+			productName = "HyperChat Extension (macOS)";
+			productReference = 367CE490286516D0004636D7 /* HyperChat Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367CE454286516CF004636D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					367CE466286516CF004636D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					367CE478286516CF004636D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					367CE485286516CF004636D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					367CE48F286516D0004636D7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 367CE457286516CF004636D7 /* Build configuration list for PBXProject "HyperChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 367CE453286516CF004636D7;
+			productRefGroup = 367CE468286516CF004636D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367CE466286516CF004636D7 /* HyperChat (iOS) */,
+				367CE478286516CF004636D7 /* HyperChat (macOS) */,
+				367CE485286516CF004636D7 /* HyperChat Extension (iOS) */,
+				367CE48F286516D0004636D7 /* HyperChat Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367CE465286516CF004636D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE499286516D0004636D7 /* Icon.png in Resources */,
+				367CE470286516CF004636D7 /* LaunchScreen.storyboard in Resources */,
+				367CE497286516D0004636D7 /* Main.html in Resources */,
+				367CE49D286516D0004636D7 /* Script.js in Resources */,
+				367CE4A1286516D0004636D7 /* Assets.xcassets in Resources */,
+				367CE473286516CF004636D7 /* Main.storyboard in Resources */,
+				367CE49B286516D0004636D7 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE477286516CF004636D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE49A286516D0004636D7 /* Icon.png in Resources */,
+				367CE49C286516D0004636D7 /* Style.css in Resources */,
+				367CE47F286516CF004636D7 /* Main.storyboard in Resources */,
+				367CE49E286516D0004636D7 /* Script.js in Resources */,
+				367CE4A2286516D0004636D7 /* Assets.xcassets in Resources */,
+				367CE498286516D0004636D7 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE484286516CF004636D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE4CE286516D0004636D7 /* options.js in Resources */,
+				367CE4D4286516D0004636D7 /* scripts in Resources */,
+				367CE4CF286516D0004636D7 /* manifest.chrome.json in Resources */,
+				367CE4D2286516D0004636D7 /* hyperchat.js in Resources */,
+				367CE4D9286516D0004636D7 /* stylesheets in Resources */,
+				367CE4D5286516D0004636D7 /* manifest.json in Resources */,
+				367CE4D1286516D0004636D7 /* vendor.js in Resources */,
+				367CE4D7286516D0004636D7 /* tailwind.js in Resources */,
+				367CE4D0286516D0004636D7 /* tailwind.css in Resources */,
+				367CE4D3286516D0004636D7 /* hyperchat.html in Resources */,
+				367CE4D6286516D0004636D7 /* options.html in Resources */,
+				367CE4D8286516D0004636D7 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE48E286516D0004636D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE4C2286516D0004636D7 /* options.js in Resources */,
+				367CE4C8286516D0004636D7 /* scripts in Resources */,
+				367CE4C3286516D0004636D7 /* manifest.chrome.json in Resources */,
+				367CE4C6286516D0004636D7 /* hyperchat.js in Resources */,
+				367CE4CD286516D0004636D7 /* stylesheets in Resources */,
+				367CE4C9286516D0004636D7 /* manifest.json in Resources */,
+				367CE4C5286516D0004636D7 /* vendor.js in Resources */,
+				367CE4CB286516D0004636D7 /* tailwind.js in Resources */,
+				367CE4C4286516D0004636D7 /* tailwind.css in Resources */,
+				367CE4C7286516D0004636D7 /* hyperchat.html in Resources */,
+				367CE4CA286516D0004636D7 /* options.html in Resources */,
+				367CE4CC286516D0004636D7 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367CE463286516CF004636D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE49F286516D0004636D7 /* ViewController.swift in Sources */,
+				367CE46B286516CF004636D7 /* AppDelegate.swift in Sources */,
+				367CE46D286516CF004636D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE475286516CF004636D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE4A0286516D0004636D7 /* ViewController.swift in Sources */,
+				367CE47C286516CF004636D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE482286516CF004636D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE4A3286516D0004636D7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367CE48C286516D0004636D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367CE4A4286516D0004636D7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		367CE489286516D0004636D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367CE485286516CF004636D7 /* HyperChat Extension (iOS) */;
+			targetProxy = 367CE488286516D0004636D7 /* PBXContainerItemProxy */;
+		};
+		367CE493286516D0004636D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367CE48F286516D0004636D7 /* HyperChat Extension (macOS) */;
+			targetProxy = 367CE492286516D0004636D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		367CE45A286516CF004636D7 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367CE45B286516CF004636D7 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		367CE46E286516CF004636D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367CE46F286516CF004636D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		367CE471286516CF004636D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367CE472286516CF004636D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		367CE47D286516CF004636D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367CE47E286516CF004636D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		367CE4A5286516D0004636D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		367CE4A6286516D0004636D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		367CE4A8286516D0004636D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperChat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat.Extension;
+				PRODUCT_NAME = "HyperChat Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367CE4A9286516D0004636D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperChat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat.Extension;
+				PRODUCT_NAME = "HyperChat Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367CE4AC286516D0004636D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HyperChat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat;
+				PRODUCT_NAME = HyperChat;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367CE4AD286516D0004636D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HyperChat;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat;
+				PRODUCT_NAME = HyperChat;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367CE4AF286516D0004636D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/HyperChat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperChat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat.Extension;
+				PRODUCT_NAME = "HyperChat Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		367CE4B0286516D0004636D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/HyperChat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperChat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat.Extension;
+				PRODUCT_NAME = "HyperChat Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		367CE4B3286516D0004636D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/HyperChat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HyperChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Made with ❤️ by the LiveTL team";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat;
+				PRODUCT_NAME = HyperChat;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		367CE4B4286516D0004636D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/HyperChat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HyperChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Made with ❤️ by the LiveTL team";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.6.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.livetl.HyperChat;
+				PRODUCT_NAME = HyperChat;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367CE457286516CF004636D7 /* Build configuration list for PBXProject "HyperChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367CE4A5286516D0004636D7 /* Debug */,
+				367CE4A6286516D0004636D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367CE4A7286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367CE4A8286516D0004636D7 /* Debug */,
+				367CE4A9286516D0004636D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367CE4AB286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367CE4AC286516D0004636D7 /* Debug */,
+				367CE4AD286516D0004636D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367CE4AE286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367CE4AF286516D0004636D7 /* Debug */,
+				367CE4B0286516D0004636D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367CE4B2286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367CE4B3286516D0004636D7 /* Debug */,
+				367CE4B4286516D0004636D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 367CE454286516CF004636D7 /* Project object */;
+}
