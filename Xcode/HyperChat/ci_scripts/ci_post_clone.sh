@@ -10,4 +10,4 @@ brew install node
 brew install yarn
 cd ../../
 yarn
-yarn build
+VERSION=$(git describe --abbrev=0 --tags) yarn build
