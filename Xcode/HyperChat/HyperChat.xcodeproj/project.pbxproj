@@ -336,7 +336,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 367CE4A7286516D0004636D7 /* Build configuration list for PBXNativeTarget "HyperChat Extension (iOS)" */;
 			buildPhases = (
-				36BBA28E28655C7600ADAEE0 /* ShellScript */,
 				367CE482286516CF004636D7 /* Sources */,
 				367CE483286516CF004636D7 /* Frameworks */,
 				367CE484286516CF004636D7 /* Resources */,
@@ -479,27 +478,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		36BBA28E28655C7600ADAEE0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd ../../\nyarn build\n\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		367CE463286516CF004636D7 /* Sources */ = {
