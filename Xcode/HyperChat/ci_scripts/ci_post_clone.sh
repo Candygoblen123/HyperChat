@@ -6,5 +6,5 @@
 #  Created by Andrew Glaze on 6/23/22.
 #  
 
-brew install node@16
+brew install node
 brew install yarn

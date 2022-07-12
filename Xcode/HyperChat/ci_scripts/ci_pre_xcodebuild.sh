@@ -4,7 +4,7 @@
 #  HyperChat
 #
 #  Created by Andrew Glaze on 6/24/22.
-#  
+#
 
 cd ../../
 yarn
