@@ -25,7 +25,7 @@
     }
   ],
   "background": {
-    "service_worker": "scripts/chat-background.ts"
+    "service_worker": "scripts/chat-background.ts",
     "persistent": false
   },
   "action": {
