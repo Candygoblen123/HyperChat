@@ -37,15 +37,15 @@ declare namespace Chat {
 
   type Actions = MessagesAction | BonkAction | DeleteAction | Ytc.ParsedMisc | PlayerProgressAction | ForceUpdate;
 
-  interface UncheckedFrameInfo {
-    tabId: number | undefined;
-    frameId: number | undefined;
-  }
+  // interface UncheckedFrameInfo {
+  //   tabId: number | undefined;
+  //   frameId: number | undefined;
+  // }
 
-  interface FrameInfo {
-    tabId: number;
-    frameId: number;
-  }
+  // interface FrameInfo {
+  //   tabId: number;
+  //   frameId: number;
+  // }
 
   interface InitialData {
     type: 'initialData';
@@ -95,7 +95,7 @@ declare namespace Chat {
 
   interface RegisterClientMsg {
     type: 'registerClient';
-    frameInfo: FrameInfo;
+    // frameInfo: FrameInfo;
     getInitialData?: boolean;
   }
 
@@ -124,7 +124,7 @@ declare namespace Chat {
 
   interface getThemeMsg {
     type: 'getTheme';
-    frameInfo: FrameInfo;
+    // frameInfo: FrameInfo;
   }
 
   interface sendLtlMessageMsg {
@@ -136,7 +136,7 @@ declare namespace Chat {
     type: 'executeChatAction';
     message: Ytc.ParsedMessage;
     action: ChatUserActions;
-    reportOption?: ChatReportUserOptions;
+    reportOption?: import('../chat-constants').ChatReportUserOptions;
   }
 
   type BackgroundMessage =
@@ -154,10 +154,10 @@ declare namespace Chat {
   };
 
   interface Interceptor {
-    frameInfo: FrameInfo;
-    port?: Port;
+    // frameInfo: FrameInfo;
+    // port?: Port;
     clients: Port[];
-    source: InterceptorSource;
+    source?: InterceptorSource;
   }
 
   interface YtcInterceptor extends Interceptor {

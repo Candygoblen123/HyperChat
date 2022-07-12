@@ -5,8 +5,8 @@
   "scripts": {
     "build": "vite build",
     "package": "node utils/package.js",
-    "start": "cross-env MINIFY=false vite build --watch",
-    "start:none": "cross-env MINIFY=false BROWSER=none vite build --watch",
+    "start": "cross-env MINIFY=false BROWSER=none vite build --watch",
+    "start:chrome": "cross-env MINIFY=false BROWSER=chrome vite build --watch",
     "start:firefox": "cross-env MINIFY=false BROWSER=firefox vite build --watch",
     "format:check": "eslint ."
   },
@@ -15,7 +15,7 @@
     "@mdi/js": "^6.5.95",
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.34",
     "@tsconfig/svelte": "^2.0.1",
-    "@types/chrome": "^0.0.149",
+    "@types/chrome": "^0.0.193",
     "@types/download": "8.0.1",
     "@typescript-eslint/eslint-plugin": "4",
     "@typescript-eslint/parser": "^4.28.5",
@@ -50,7 +50,7 @@
     "svelte-webext-stores": "^0.0.12",
     "tailwindcss": "^2.2.7",
     "typescript": "^4.3.5",
-    "vite": "2.7.10",
-    "vite-plugin-web-extension": "^1.0.7"
+    "vite": "2.9.14",
+    "vite-plugin-web-extension": "^1.4.0"
   }
 }
