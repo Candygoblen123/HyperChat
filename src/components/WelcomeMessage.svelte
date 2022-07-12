@@ -24,7 +24,7 @@
     },
     {
       name: 'GitHub',
-      href: 'https://github.com/LiveTL/LiveTL/'
+      href: 'https://github.com/LiveTL/HyperChat/'
     },
     {
       name: 'Discord',
@@ -41,7 +41,7 @@
 
 <div class={classes}>
   <div class="flex items-center w-full">
-    <div>
+    <div class="relative">
       <img class="rounded-full" width="44" height="44" src={logo} alt="logo">
     </div>
     <span class="ml-2 leading-tight">
@@ -54,7 +54,7 @@
             $lastClosedVersion = '';
             $refreshScroll = true;
             e.preventDefault();
-          }} class="underline dark:text-primary-50 text-primary-900">
+          }} class="underline text-primary-900 dark:text-primary-50">
             v{version}
           </a>
         {:else}
@@ -66,7 +66,7 @@
           <p>
             <a 
               href={badge.href}
-              class="underline dark:text-primary-50 text-primary-900"
+              class="underline text-primary-900 dark:text-primary-50"
               target="_blank"
             >
               {badge.name}
@@ -97,3 +97,25 @@
     </p>
   {/if}
 </div>
+
+<style>
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .kiwawa-hat {
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    max-width: unset;
+    width: 55px;
+    animation: float 1s ease-in-out infinite;
+  }
+</style>
