@@ -83,5 +83,5 @@
     <Icon class="inline align-middle" small>open_in_new</Icon>
   </a>
   <Checkbox name="Automatically switch to Live Chat" store={autoLiveChat} />
-  <MessageTranslationSettings />
+  <!-- <MessageTranslationSettings /> -->
 </Card>
