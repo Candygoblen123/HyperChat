@@ -32,7 +32,6 @@
 		367CE4C2286516D0004636D7 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B6286516D0004636D7 /* options.js */; };
 		367CE4C3286516D0004636D7 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B7286516D0004636D7 /* manifest.chrome.json */; };
 		367CE4C4286516D0004636D7 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B8286516D0004636D7 /* tailwind.css */; };
-		367CE4C5286516D0004636D7 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B9286516D0004636D7 /* vendor.js */; };
 		367CE4C6286516D0004636D7 /* hyperchat.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BA286516D0004636D7 /* hyperchat.js */; };
 		367CE4C7286516D0004636D7 /* hyperchat.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BB286516D0004636D7 /* hyperchat.html */; };
 		367CE4C8286516D0004636D7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BC286516D0004636D7 /* scripts */; };
@@ -44,7 +43,6 @@
 		367CE4CE286516D0004636D7 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B6286516D0004636D7 /* options.js */; };
 		367CE4CF286516D0004636D7 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B7286516D0004636D7 /* manifest.chrome.json */; };
 		367CE4D0286516D0004636D7 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B8286516D0004636D7 /* tailwind.css */; };
-		367CE4D1286516D0004636D7 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4B9286516D0004636D7 /* vendor.js */; };
 		367CE4D2286516D0004636D7 /* hyperchat.js in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BA286516D0004636D7 /* hyperchat.js */; };
 		367CE4D3286516D0004636D7 /* hyperchat.html in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BB286516D0004636D7 /* hyperchat.html */; };
 		367CE4D4286516D0004636D7 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 367CE4BC286516D0004636D7 /* scripts */; };
@@ -124,7 +122,6 @@
 		367CE4B6286516D0004636D7 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../../build/options.js; sourceTree = "<group>"; };
 		367CE4B7286516D0004636D7 /* manifest.chrome.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.chrome.json; path = ../../../build/manifest.chrome.json; sourceTree = "<group>"; };
 		367CE4B8286516D0004636D7 /* tailwind.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = tailwind.css; path = ../../../build/tailwind.css; sourceTree = "<group>"; };
-		367CE4B9286516D0004636D7 /* vendor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = vendor.js; path = ../../../build/vendor.js; sourceTree = "<group>"; };
 		367CE4BA286516D0004636D7 /* hyperchat.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = hyperchat.js; path = ../../../build/hyperchat.js; sourceTree = "<group>"; };
 		367CE4BB286516D0004636D7 /* hyperchat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = hyperchat.html; path = ../../../build/hyperchat.html; sourceTree = "<group>"; };
 		367CE4BC286516D0004636D7 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = ../../../build/scripts; sourceTree = "<group>"; };
@@ -269,7 +266,6 @@
 				367CE4B6286516D0004636D7 /* options.js */,
 				367CE4B7286516D0004636D7 /* manifest.chrome.json */,
 				367CE4B8286516D0004636D7 /* tailwind.css */,
-				367CE4B9286516D0004636D7 /* vendor.js */,
 				367CE4BA286516D0004636D7 /* hyperchat.js */,
 				367CE4BB286516D0004636D7 /* hyperchat.html */,
 				367CE4BC286516D0004636D7 /* scripts */,
@@ -449,7 +445,6 @@
 				367CE4D2286516D0004636D7 /* hyperchat.js in Resources */,
 				367CE4D9286516D0004636D7 /* stylesheets in Resources */,
 				367CE4D5286516D0004636D7 /* manifest.json in Resources */,
-				367CE4D1286516D0004636D7 /* vendor.js in Resources */,
 				367CE4D7286516D0004636D7 /* tailwind.js in Resources */,
 				367CE4D0286516D0004636D7 /* tailwind.css in Resources */,
 				367CE4D3286516D0004636D7 /* hyperchat.html in Resources */,
@@ -468,7 +463,6 @@
 				367CE4C6286516D0004636D7 /* hyperchat.js in Resources */,
 				367CE4CD286516D0004636D7 /* stylesheets in Resources */,
 				367CE4C9286516D0004636D7 /* manifest.json in Resources */,
-				367CE4C5286516D0004636D7 /* vendor.js in Resources */,
 				367CE4CB286516D0004636D7 /* tailwind.js in Resources */,
 				367CE4C4286516D0004636D7 /* tailwind.css in Resources */,
 				367CE4C7286516D0004636D7 /* hyperchat.html in Resources */,
